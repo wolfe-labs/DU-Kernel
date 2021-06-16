@@ -1,0 +1,19 @@
+{
+  "name": "@wolfe-labs/Kernel",
+  "description": "Core utilities and libraries for usage in DU",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "tests/threads": {
+      "name": "tests/threads",
+      "slots": {}
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": true,
+      "minify": false
+    }
+  }
+}
